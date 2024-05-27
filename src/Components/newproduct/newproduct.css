@@ -1,0 +1,38 @@
+.new_products_details {
+  margin-top: 6rem;
+  height: auto;
+  width: 95vw;
+  margin-left: 2rem;
+}
+
+.fakeimg {
+  height: auto;
+}
+.side {
+  flex: 1 1 170px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.labels-for-price{
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .side{
+    width: 90vw;
+    margin-right: 1rem;
+  }
+  .main{
+    width: 100vw;
+    margin-right: 2rem;
+  }
+  
+}

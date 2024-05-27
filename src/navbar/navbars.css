@@ -1,0 +1,208 @@
+/* #forms{
+    margin-left: 48rem;
+} */
+#nav {
+    background: orange;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+ul li {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#menus {
+    margin-top: 0.4rem;
+    width: 14vw;
+}
+
+#menus:hover {
+    background: rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+    width: 50vw;
+    margin-left: -9rem;
+    margin-top: 1rem;
+    background: #eab934
+}
+
+#dropdown {
+    margin-left: 2rem;
+    width: 55vw;
+}
+
+.images_bed {
+    border-radius: 12px;
+    margin-left: 1.5rem;
+    width: 20vw;
+    margin-top: 1rem;
+
+}
+
+#dropdown-home-items {
+    width: 90vw;
+}
+
+#dropdown-furin-box {
+    width: 70vw;
+}
+
+
+#loginss {
+    background: transparent;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    border: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#loginss:hover {
+    text-decoration: underline;
+
+}
+
+#register {
+    background: transparent;
+    margin-top: 1rem;
+    border: none;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+#register:hover {
+    text-decoration: underline;
+}
+
+.bi-cart {
+    margin-right: 0rem;
+    width: 10vw;
+    height: 4vh;
+}
+
+.bag-quantity {
+    margin-right: 2rem;
+
+}
+
+
+
+.mm {
+    color: rgb(255, 250, 250);
+    margin-left: -3.6rem;
+
+
+}
+
+
+.heart{
+    color: #000;
+   
+}
+
+.heart-icon{
+   
+
+}
+.loves{
+   
+}
+
+/* Profile Picture */
+.profile-pic{
+    display: inline-block;
+    vertical-align: middle;
+     width: 50px;
+     height: 50px;
+     overflow: hidden;
+    border-radius: 50%;
+ }
+ 
+ .profile-pic img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+ .profile-menu .dropdown-menu {
+   right: 0;
+   left: unset;
+ }
+ .profile-menu .fa-fw {
+   margin-right: 10px;
+ }
+ 
+ .toggle-change::after {
+   border-top: 0;
+   border-bottom: 0.3em solid;
+ }
+
+@media only screen and (min-width: 900px) {
+
+    .in-pc {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        flex-direction: column;
+    }
+
+    /* //setting the image and height in the  */
+    .images_bed {
+        width: 65vw;
+    }
+
+    #dropdown {
+        width: 80vw;
+        height: 112vh;
+    }
+
+
+    /* //for home_items */
+
+    #dropdown-home-items {
+        width: 80vw;
+        margin-left: 2rem;
+        height: 180vh;
+    }
+
+    /* //for the fruit box-sizing;; */
+
+    #dropdown-furin-box {
+        width: 80vw;
+        margin-left: 2rem;
+        height: 170vh;
+    }
+
+    .bi-cart {
+        margin-left: 12rem;
+        width: 10vw;
+        height: 4vh;
+    }
+
+    .mm {
+        margin-left: 0px;
+    }
+
+    .in-desktop {
+        display: none;
+    }
+
+
+
+}

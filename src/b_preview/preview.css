@@ -1,0 +1,154 @@
+.row-preview-pregination {
+    display: flex;
+}
+
+.new-pregination-product {
+    margin-left: 4rem;
+}
+
+.image-add-to-cart {
+    border-radius: 12px;
+    width: 40vw;
+    transition: 0.4s ease-in-out;
+}
+
+.image-add-to-cart:hover {
+    width: 60vw;
+    height: auto;
+}
+
+
+.text-box-preview {
+    margin-left: 10rem;
+    margin-top: 7rem;
+
+
+}
+
+
+/* //.text-box-preview */
+
+
+.kalssier {
+    color: orange;
+    letter-spacing: 4px;
+}
+
+.availability {
+    margin-top: 3rem;
+    opacity: 0.5;
+}
+
+.stock {
+    opacity: 2;
+}
+
+.availability-sku {
+    margin-top: 3rem;
+}
+
+.price {
+    margin-top: 2rem;
+    color: orange;
+}
+
+.to {
+    background: orange;
+    color: rgb(0, 0, 0);
+    width: 20vw;
+}
+
+
+/* TEXT OVERVIEW */
+
+
+.title-pregination {
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 15px;
+    color: orange;
+}
+
+.all-text-overview {
+    margin-left: 10rem;
+    padding: 1.1rem;
+    font-size: 20px;
+}
+
+.overView-box {
+    border: solid;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    border-color: orange;
+
+
+
+
+}
+
+
+.header-text-preginations {
+    text-align: center;
+    margin-top: 4rem;
+    letter-spacing: 10px;
+    opacity: 0.5;
+    color: orange;
+}
+
+@media (min-width:0px) and (max-width:750px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+
+    .row-preview-pregination {
+        flex-direction: column;
+
+    }
+
+    .header-text-preginations {
+        font-size: 3rem;
+    }
+
+    .text-box-preview {
+        margin-left: 1rem;
+
+    }
+    .overView-box{
+        width: 90vw;
+        margin-left: 1rem;
+    }
+
+    .all-text-overview{
+        margin-left: 1rem;
+    }
+
+    .to {
+        padding: 1rem;
+        width: 85vw;
+    }
+
+    .image-add-to-cart {
+        width: 80vw;
+        height: auto;
+        margin-left: -2rem;
+    }
+
+
+}
+
+@media (min-width:468px) and (max-width:750px) {
+
+    /* smartphones, Android phones, landscape iPhone */
+    body {
+        background: black;
+    }
+
+    .row-preview-pregination {
+        flex-direction: column;
+    }
+
+    .image-add-to-cart {
+        width: 56vw;
+        height: auto;
+    }
+}

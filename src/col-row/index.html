@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* background: rebeccapurple; */
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            /* grid-template-rows : 133px 133px 133px 133px; */
+            grid-template-columns: 133px 133px 133px 133px;
+            row-gap: 12px;
+            column-gap: 12px;
+
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+        }
+
+        .item {
+            background: aqua;
+            /* width: 122px;
+            height: 122px; */
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+
+
+        @media screen and (max-width: 480px) {
+            .item {
+                width: 50vw;
+               grid-row: span 3;
+               grid-column: span 3;
+               background-color: black;
+            }
+        }
+    </style>
+    <div class="container">
+        
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+       
+
+
+    </div>
+</body>
+
+</html>

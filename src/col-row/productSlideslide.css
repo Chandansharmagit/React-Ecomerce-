@@ -1,0 +1,32 @@
+.row-pregination-slider{
+
+    display: flex;
+}
+.col-pregination-sliderr{
+    /* margin-left: -4rem; */
+}
+.main-sofa-images{
+   
+    margin-left: 2rem; 
+  
+}
+
+.fabric-sofa{
+    width:40vw ;
+    margin-left: 4rem;
+    margin-top: 1.2rem;
+}
+@media screen and (max-width: 480px) {
+    .fabric-sofa{
+        width:88vw ;
+        margin-left: 1.3rem;
+        margin-top: 0rem;
+    }
+    .row-pregination-slider {
+         /* width: 50vw;
+         grid-row: span 3;
+         grid-column: span 3; */
+         flex-direction: column;
+        
+     }
+ }
